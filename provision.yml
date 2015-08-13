@@ -1,0 +1,6 @@
+---
+- hosts: all
+  sudo: yes
+  roles:
+  - create_user
+  - install_ntp
